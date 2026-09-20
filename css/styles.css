@@ -4,3 +4,33 @@
 h1{
    color:aqua;
 }
+/*Changes backgground colour*/
+body {
+   background-color: lightblue;
+}
+/* Makes all paragraphs brown and increases line spacing */
+p {
+   color: brown;
+   line-height: 1.6;
+}
+/* Makes all h2 headings dark green*/
+h2 {
+   color: darkgreen;
+}
+/*Gives h1 and h2 headings the same font */
+h1,h2 {
+   font-family: Arial, sans-serif;
+}
+/* Makes the intro paragraph green and bold */
+.intro {
+   color: green;
+   font-weight: bold;
+}
+/* Makes the summit heading orange */
+#summit {
+   color: orange;
+}
+/* Overrides the earlier paragraph colour with dark blue */
+p {
+   color: darkblue;
+}
