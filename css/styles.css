@@ -2,6 +2,12 @@
    This file is already linked from index.html. Write your rules below.
    Start by changing the body background colour and saving, to confirm the link works. */
    /* Changes main heading colour to aqua */
+* {
+   box-sizing: border-box;
+}
+
+
+
 h1{
    color:aqua;
 }
