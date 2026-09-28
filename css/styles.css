@@ -7,9 +7,12 @@
 }
 
 
-
+/* Styles the main heading with a distinct size and balanced wrapping */
 h1{
    color:aqua;
+   font-size: 2.5rem;
+   line-height: 1.2;
+   text-wrap: balance;
 }
 /* Sets the page background and based typography */
 body {
@@ -26,10 +29,7 @@ p {
 h2 {
    color: darkgreen;
 }
-/*Gives h1 and h2 headings the same font */
-h1,h2 {
-   font-family: Arial, sans-serif;
-}
+
 /* Makes the intro paragraph green and bold */
 .intro {
    color: green;
