@@ -18,10 +18,9 @@ body {
    font-size: 1rem;
    line-height: 1.6;
 }
-/* Makes all paragraphs brown and increases line spacing */
+/* Sets the earlier paragraph colour */
 p {
    color: brown;
-   line-height: 1.6;
 }
 /* Makes all h2 headings dark green*/
 h2 {
