@@ -11,7 +11,7 @@
 h1{
    color:aqua;
 }
-/*Changes backgground colour*/
+/* Sets the page background and based typography */
 body {
    background-color: lightblue;
    font-family: "Inter", Arial, Helvetica, sans-serif;
