@@ -10,7 +10,7 @@
    --hsl-1: hsl(210, 60%, 25%); /* HSL syep 1 darkest */
    --hsl-2: hsl(210, 60%, 45%); /* HSL step 2: dark */
    --hsl-3: hsl(210, 60%, 65%); /* HSL step 3: light */
-   --hsl-4: hsl(210, 60%, 65%); /* HSL step 4: lightest */
+   --hsl-4: hsl(210, 60%, 85%); /* HSL step 4: lightest */
 
    --oklch-1: oklch(25%0.08 250); /* OKLCH step 1: darkest */
    --oklch-2: oklch(45% 0.08 250); /*OKLCH step 2 dark */
