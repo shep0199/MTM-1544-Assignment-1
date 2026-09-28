@@ -89,3 +89,8 @@ p {
    aspect-ratio: 16/9;
    background-color: lightgray;
 }
+
+/* Sets the base colour for the interactive trail link */
+.trail-link {
+   color: var(--oklch-2);
+}
