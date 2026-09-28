@@ -6,6 +6,13 @@
    box-sizing: border-box;
 }
 
+:root {
+   --hsl-1: hsl(210, 60%, 25%); /* HSL syep 1 darkest */
+   --hsl-2: hsl(210, 60%, 35%); /* HSL step 2: dark */
+   --hsl-3: hsl(210, 60%, 45%); /* HSL step 3: light */
+   --hsl-4: hsl(210, 60%, 55%); /* HSL step 4: lightest */
+}
+
 
 /* Styles the main heading with a distinct size and balanced wrapping */
 h1{
