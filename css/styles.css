@@ -14,6 +14,9 @@ h1{
 /*Changes backgground colour*/
 body {
    background-color: lightblue;
+   font-family: "Inter", Arial, Helvetica, sans-serif;
+   font-size: 1rem;
+   line-height: 1.6;
 }
 /* Makes all paragraphs brown and increases line spacing */
 p {
