@@ -53,9 +53,10 @@ h1, h2 {
    font-weight: 700;
 }
 
-/* Makes the intro paragraph green and bold */
+/* Makes the intro paragraph purple and bold */
+/* Had to edit intro paragraph to fit webAIM standards */
 .intro {
-   color: green;
+   color: purple;
    font-weight: bold;
 }
 /* Makes the summit heading orange */
