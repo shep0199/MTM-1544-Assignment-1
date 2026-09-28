@@ -17,7 +17,7 @@
    --oklch-3: oklch(65% 0.08 250); /* OKLCH step 3: light */
    --oklch-4:oklch(85% 0.08 250); /* OKLCH step 4: lightest */
 }
-
+/* HSL syeps appear more evenly spaced visaully than the OKLCH steps but not by much */
 
 /* Styles the main heading with a distinct size and balanced wrapping */
 h1{
