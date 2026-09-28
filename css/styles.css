@@ -21,7 +21,7 @@
 
 /* Styles the main heading with a distinct size and balanced wrapping */
 h1{
-   color:aqua;
+   color:brown;
    font-size: 2.5rem;
    line-height: 1.2;
    text-wrap: balance;
