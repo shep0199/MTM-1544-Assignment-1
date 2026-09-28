@@ -59,9 +59,10 @@ h1, h2 {
    color: purple;
    font-weight: bold;
 }
-/* Makes the summit heading orange */
+/* Makes the summit heading dark red */
+/* Had to edit summit heading colour to fit webAIM standards */
 #summit {
-   color: orange;
+   color: darkred;
 }
 /* Overrides the earlier paragraph colour with dark blue */
 p {
