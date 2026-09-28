@@ -20,6 +20,7 @@
 /* HSL syeps appear more evenly spaced visaully than the OKLCH steps but not by much */
 
 /* Styles the main heading with a distinct size and balanced wrapping */
+/* Had to edit title to fit webAIM standards */
 h1{
    color:brown;
    font-size: 2.5rem;
@@ -28,7 +29,8 @@ h1{
 }
 /* Sets the page background and based typography */
 body {
-   background-color: lightblue;
+   /* fixes background colour to fit webAIM standards */
+   background-color: lightgray;
    font-family: "Inter", Arial, Helvetica, sans-serif;
    font-size: 1rem;
    line-height: 1.6;
