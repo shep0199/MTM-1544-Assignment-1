@@ -94,3 +94,8 @@ p {
 .trail-link {
    color: var(--oklch-2);
 }
+
+/* Creates the hover colour by mixing the base link colour with black */
+.trail-link:hover {
+   color: color-mix(in oklch, var(--oklch-2) 80%, black);
+}
