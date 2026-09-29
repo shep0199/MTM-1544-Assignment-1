@@ -15,7 +15,7 @@
    --oklch-1: oklch(25%0.08 250); /* OKLCH step 1: darkest */
    --oklch-2: oklch(45% 0.08 250); /*OKLCH step 2 dark */
    --oklch-3: oklch(65% 0.08 250); /* OKLCH step 3: light */
-   --oklch-4:oklch(85% 0.08 250); /* OKLCH step 4: lightest */
+   --oklch-4: oklch(85% 0.08 250); /* OKLCH step 4: lightest */
 }
 /* HSL syeps appear more evenly spaced visaully than the OKLCH steps but not by much */
 
