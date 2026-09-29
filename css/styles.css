@@ -103,3 +103,23 @@ p {
 .trail-link:hover {
    color: color-mix(in oklch, var(--oklch-2) 80%, black);
 }
+
+/*
+Week 3 Contrast Audit — WebAIM
+
+H1 / background: [4:73:1] — PASS
+Body text / background: [10:21:1] — PASS
+Intro text/ background: [6:29:1] — PASS
+H2 / background: [4:96:1] — PASS
+H2 Summit / background: [6:68:1] - PASS
+Card h2 / background: [7:43:1] — PASS
+card body text / background: [15:29:1]
+Link hover / background: [14:02:1] — PASS
+Link focus / background: [4:95:1] — PASS
+
+Colour adjustments:
+Had to edit title to fit webAIM standards
+fixed background colour to fit webAIM standards
+Had to edit intro paragraph to fit webAIM standards
+Had to edit summit heading colour to fit webAIM standards 
+*/
