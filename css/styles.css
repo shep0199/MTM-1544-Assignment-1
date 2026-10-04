@@ -165,8 +165,6 @@ h2::before {
 }
 /* Step 3 confirmed: the ::before pseudo-element desplays decorative content only. */
 
-<h2 id="summit" class="specificity-test">Summit Climb</h2>
-
 /* Prediction: I think red will be the final colour because it has the highest specificity. The ID selector is more specific than the class selector and the element selector. */
 
 h2 {
