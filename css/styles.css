@@ -150,7 +150,7 @@ a:focus {
 
 /* Stripes the odd list items without adding classes */
 ul li:nth-child(odd) {
-   background-color: lightgray;
+   background-color: lightskyblue;
 }
 
 /* Distuinguishes the first item in the list */
