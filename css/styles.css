@@ -163,3 +163,5 @@ ul li:first-child {
 h2::before {
    content: "⛰️ ";
 }
+/* Step 3 confirmed: the ::before pseudo-element desplays decorative content only. */
+
