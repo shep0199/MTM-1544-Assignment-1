@@ -181,3 +181,18 @@ h2 {
 }
 
 /* Confirmed: the final colour is red because the ID selector is more specific than the class selector and the element selector. */
+
+/* Step 5: Specificity experiment - equal-specificity classes */
+/* Prediction: I think the final colour will be purple because it is the last rule in the cascade. All three classes have equal specificity. */
+
+.specificity-one {
+   color: blue;
+}
+.specificity-two {
+   color: green;
+}
+.specificity-three {
+   color: purple;
+}
+
+/* Confirmed: the final colour is purple because it is the last rule in the cascade. All three classes have equal specificity. */
