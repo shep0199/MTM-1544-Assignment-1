@@ -157,3 +157,9 @@ ul li:nth-child(odd) {
 ul li:first-child {
    font-weight: bold;
 }
+
+/* Step 3: Decorative pseudo-elements */
+/* The symbol is decorative only and adds no important information. The heading text still communicates the full meaning without it- so safe for tech to ignore. */
+h2::before {
+   content: "⛰️ ";
+}
