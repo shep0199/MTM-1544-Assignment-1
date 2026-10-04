@@ -48,10 +48,12 @@ h2 {
 }
 
 /* Gives h1 and h2 the google font with fallback fonts */
+/* Previous grouped selector, rewritten with :where() for Week 4
 h1, h2 {
-   font-family: "Inter", Arial, Helvetica, sans-serif;
-   font-weight: 700;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
+*/
 
 /* Makes the intro paragraph purple and bold */
 /* Had to edit intro paragraph to fit webAIM standards */
@@ -196,3 +198,10 @@ h2 {
 }
 
 /* Confirmed: the final colour is purple because it is the last rule in the cascade. All three classes have equal specificity. */
+
+/* Step 6: :where() rewrite */
+/* Rewrrites the previous grouped h1, h2 selector using :where() to reduce specificity. The specificity of the :where() pseudo-class is always zero, so it will not override other rules. */
+:where(h1, h2) {
+   font-family: "Inter", Arial, Helvetica, sans-serif;
+   font-weight: 700;
+}
