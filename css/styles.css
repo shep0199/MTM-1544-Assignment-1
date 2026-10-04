@@ -144,3 +144,4 @@ a:focus {
 .trail-link:focus {
    color: color-mix(in oklch,var(--oklch-2) 80%, black);
 }
+/* Step 1 confirmed: completed full keyboard-only, Tab pass and focus remained visbinle on every link*/
