@@ -145,3 +145,15 @@ a:focus {
    color: color-mix(in oklch,var(--oklch-2) 80%, black);
 }
 /* Step 1 confirmed: completed full keyboard-only, Tab pass and focus remained visbinle on every link*/
+
+/* Step 2: Structural selectors */
+
+/* Stripes the odd list items without adding classes */
+ul li:nth-child(odd) {
+   background-color: lightgray;
+}
+
+/* Distuinguishes the first item in the list */
+ul li:first-child {
+   font-weight: bold;
+}
