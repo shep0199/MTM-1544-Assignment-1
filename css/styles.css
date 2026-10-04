@@ -123,3 +123,18 @@ fixed background colour to fit webAIM standards
 Had to edit intro paragraph to fit webAIM standards
 Had to edit summit heading colour to fit webAIM standards 
 */
+
+/* Week 4: Interactive states*/
+
+/* Gives every link matching hover and focus states */
+a:hover,
+a:focus {
+color: darkblue;
+text-decoration: underline;
+}
+
+/* Keeps keyboard focus clearly visible */
+a:focus {
+   outline: 3px solid darkblue;
+   outline-offset: 2px;
+}
