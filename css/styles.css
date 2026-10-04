@@ -205,3 +205,5 @@ h2 {
    font-family: "Inter", Arial, Helvetica, sans-serif;
    font-weight: 700;
 }
+
+/* Step 6 confirmed: the :where() rule successfully applies the same font styling to h1 and h2 after replacing the previous grouped selector. */
