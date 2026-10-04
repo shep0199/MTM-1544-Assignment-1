@@ -138,3 +138,9 @@ a:focus {
    outline: 3px solid darkblue;
    outline-offset: 2px;
 }
+
+/* Matches the existing trail link hover and focus states */
+.trail-link:hover,
+.trail-link:focus {
+   color: color-mix(in oklch,var(--oklch-2) 80%, black);
+}
